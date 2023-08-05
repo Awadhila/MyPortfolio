@@ -1,5 +1,4 @@
-# Full Stack Dev Portfolio - 3D Aesthetic Showcase
-
+# Full Stack Dev Portfolio
 ### Overview
 
 Welcome to my Full Stack Developer portfolio! This repository showcases a single landing page built using a blend of cutting-edge technologies, including React, Tailwind CSS, Framer Motion, and Next.js. The website boasts an immersive 3D aesthetic design, providing an engaging user interface to highlight my work, skills, and information as a developer.
