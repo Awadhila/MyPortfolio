@@ -1,4 +1,6 @@
 import {
+  AA,
+  upwork,
   mobile,
   backend,
   creator,
@@ -116,24 +118,24 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "IT Support Specialist",
+    company_name: "A&A Hauliers",
+    icon: AA,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Jan 2021 - Dec 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Automated invoicing procedures through MySQL (back-end) and JavaScript (front-end).",
+      "Proactively resolved network issues, maintaining seamless connectivity and data flow.",
+      "Demonstrated troubleshooting skills for hardware and software challenges, minimizing downtime.",
+      "Developed custom tools and web applications tailored to meet business needs.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Full-Stack Developer",
+    company_name: "Upwork",
+    icon: upwork,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Sep 2019 - Feb 2022",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -141,38 +143,13 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+
 ];
 
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "Thanks to Awadh’s expertise, our project got a significant boost. Highly recommend!",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -180,7 +157,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "Impressed by the website Awadh created; it matches our product's beauty.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -188,7 +165,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Awadh optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
@@ -198,9 +175,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "My Shirt Store",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Developed a 3D clothing store, seamlessly integrating with CRM systems to empower users with personalized apparel options. This solution included robust transaction processing, as well as API integrations with Google, Facebook, and AI-driven image generation.",
     tags: [
       {
         name: "react",
@@ -216,12 +193,12 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Awadhila/MyShirt",
   },
   {
-    name: "Job IT",
+    name: "My Brand",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Developed a highly responsive 3D branding site, strategically incorporating lead generation mechanisms through direct capture forms linked to your CRM. The platform features captivating sections, ensuring an immersive and compelling user experience.",
     tags: [
       {
         name: "react",
@@ -237,12 +214,12 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Awadhila/MyProfile",
   },
   {
     name: "Trip Guide",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      ": Developed a user-centric CRM application tailored for bus bookings, offering preferred seating selection, fortified by secure payment gateways, and effortlessly connected through seamless API integrations",
     tags: [
       {
         name: "nextjs",
